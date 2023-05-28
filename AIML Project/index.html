@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>AI_ML_Document</title>
+</head>
+<body>
+  <div class="card bg-dark text-white">
+      
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active image">
+            <div class="carousel-caption d-none d-md-block c">
+              <div class="d">
+                <div class="content">
+                  <h2 style="padding-top: 100px;">Sign in</h2>
+                  <form style="padding-left: 70px; ">
+                    <div class="inputbox" style="padding: 5px; padding-top: 20px; ">
+                      <input style="color: white;" type="text" placeholder="Username">
+                    </div>
+                    <div class="inputbox" style="padding: 10px;margin-top: 10px;">
+                      <input style="color: white;" type="password" placeholder="password">
+                    </div>
+                    <button type="button" class="btn btn-outline-light" style="margin-top: 50px; margin-right: 50px;">LOGIN</button>
+                  </form>
+                </div>
+              </div>
+              <a href="" class="btns">Forgot password</a>
+              <a href="" class="btnssignup">sign-up</a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-img-overlay">
+
+      <!-- As a heading -->
+      <nav class="navbar navbar-light bg-light bg-transparent fixed-top">
+        <span class="navbar-brand  h1">Machine Learning</span>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link hover" href="#BASIC">BASIC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover" href="#INTERMEDIATE">INTERMEDIATE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover" href="#ADVANCE">ADVANCE</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="a">
+        <h3 style="font-size: 100px;">Your,</h3>
+        <h3 style="font-size: 50px; padding-left: 50px;"><i><b><big>Machine Learning </big></b></i>Journey..... </h3>
+        <h3 style="font-size: 30px;  padding-left: 50px;">Begins Now</h3>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="BASIC">
+      <p><b>What is Machine Learning ?</b></p>
+      <p>Machine Learning is a system of computer algorithms that can learn from examples through self-improvement without being explicitly coded by a programmer. Machine learning is a part of artificial intelligence which combines data with statistical tools to predict an output that can be used to make actionable insights.</p>
+      <p>First of all.......Let me give you a OVERVIEW.</p>
+      <p>In machine learning we call the program a model, which is capable of doing some task. Now to make a ML model work we need to train that model & to train the model we will need a data-set, the data-set can be a xml/csv file, a vedio, audio, or image file,  etc.</p>
+      <h3><b><u>Step 1 : Getting the suitable data-set</u></b></h3>
+      <p>To get the data-set there are many ways.....but the most prominent is throungh  <a style="color: white;" href="https://datasetsearch.research.google.com/">Google Dataset Search</a> </p>
+    </div>
+    <div id="INTERMEDIATE"></div>
+    <div id="ADVANCE"></div>
+  </div>
+
+  
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    var nav = document.querySelector('nav')
+    window.addEventListener('scroll',function ()
+      {
+        if(window.pageYOffset > 100){
+          nav.classList.add('bg-dark','shadow');
+        }
+        else
+        {
+          nav.classList.remove('bg-dark')
+        }
+      })
+
+    </script>
+
+</body>
+</html>
